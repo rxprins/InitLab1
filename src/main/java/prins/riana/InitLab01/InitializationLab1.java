@@ -1,8 +1,6 @@
 package prins.riana.InitLab01;
 
-/**
- * Created by rianaprins on 1/27/16.
- */
+
 public class InitializationLab1 {
 
     public static void main (String[] args) {
@@ -13,12 +11,17 @@ public class InitializationLab1 {
         BoringThing boring5 = new BoringThing();
 
         ColorfulThing color1 = new ColorfulThing("red");
-        ColorfulThing color2 = new ColorfulThing("red");
-        ColorfulThing color3 = new ColorfulThing("red");
-        ColorfulThing color4 = new ColorfulThing("red");
-        ColorfulThing color5 = new ColorfulThing("red");
+        ColorfulThing color2 = new ColorfulThing("blue");
+        ColorfulThing color3 = new ColorfulThing("green");
+        ColorfulThing color4 = new ColorfulThing("pink");
+        ColorfulThing color5 = new ColorfulThing("purple");
+       // ColorfulThing color6 = new ColorfulThing();
 
-        //System.out.println()
+        System.out.println(color1.getColor());
+        System.out.println(color2.getColor());
+        System.out.println(color3.getColor());
+        System.out.println(color4.getColor());
+        System.out.println(color5.getColor());
 
 
     }
