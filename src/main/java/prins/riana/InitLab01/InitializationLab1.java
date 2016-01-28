@@ -6,19 +6,15 @@ package prins.riana.InitLab01;
 public class InitializationLab1 {
 
     public static void main (String[] args) {
-        BoringThing boring1 = new BoringThing();
-        BoringThing boring2 = new BoringThing();
-        BoringThing boring3 = new BoringThing();
-        BoringThing boring4 = new BoringThing();
-        BoringThing boring5 = new BoringThing();
 
-        ColorfulThing color1 = new ColorfulThing("red");
-        ColorfulThing color2 = new ColorfulThing("red");
-        ColorfulThing color3 = new ColorfulThing("red");
-        ColorfulThing color4 = new ColorfulThing("red");
-        ColorfulThing color5 = new ColorfulThing("red");
+        ColorfulThing color1 = new ColorfulThing(ColorfulThing.Color.BLACK);
+        ColorfulThing color2 = new ColorfulThing(ColorfulThing.Color.WHITE);
+        ColorfulThing color3 = new ColorfulThing(ColorfulThing.Color.SILVER);
 
-        //System.out.println()
+        System.out.println(color1.getColor());
+        System.out.println(color2.getColor());
+        System.out.println(color3.getColor());
+
 
 
     }

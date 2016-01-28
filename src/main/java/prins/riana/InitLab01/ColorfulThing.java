@@ -1,14 +1,16 @@
 package prins.riana.InitLab01;
 
-/**
- * Created by rianaprins on 1/27/16.
- */
+
 public class ColorfulThing {
     String color;
 
+    public enum Color {
+        WHITE, BLACK, SILVER
+    }
 
-    public ColorfulThing(String color)  {
-       this.color = color;
+
+    public ColorfulThing(Color ecolor)  {
+       color = String.valueOf(ecolor);
     }
 
 
